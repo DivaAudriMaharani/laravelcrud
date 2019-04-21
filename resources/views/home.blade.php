@@ -6,7 +6,7 @@
 </div>
 @endif
 
-  <table class="table table-hover">
+  <table class="table table-hover" border="1px">
     <thead>
       <tr>
         <th scope="col">Id</th>
@@ -21,8 +21,8 @@
 
     <tbody>
       <tr class="table-default">
-        <td>{{ $buku->id }}</td>
-        <td>{{ $buku->judul }}</td>
+        <td style="text-align: center;">{{ $buku->id }}</td>
+        <td style="text-align: center;">{{ $buku->judul }}</td>
         <td>{{ $buku->created_at }}</td>
         <td>{{ $buku->updated_at }}</td>
         <td>
@@ -35,5 +35,3 @@
     @endif
     </tbody>
   </table>
-
-@include('footer')
