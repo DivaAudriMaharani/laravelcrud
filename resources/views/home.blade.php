@@ -5,15 +5,15 @@
 {{session('info')}}
 </div>
 @endif
-
+  
   <table class="table table-hover" border="1px">
     <thead>
       <tr>
-        <th scope="col">Id</th>
-        <th scope="col">Judul Buku</th>
-        <th scope="col">Tanggal Dibuat</th>
-        <th scope="col">Tanggal Diedit</th>
-        <th scope="col">Aksi</th>
+        <th scope="col" style="background-color: #00CED1;">Id</th>
+        <th scope="col" style="background-color: #00CED1">Judul Buku</th>
+        <th scope="col" style="background-color: #00CED1">Tanggal Dibuat</th>
+        <th scope="col" style="background-color: #00CED1">Tanggal Diedit</th>
+        <th scope="col" style="background-color: #00CED1">Aksi</th>
       </tr>
     </thead>
     @if(count($buku) > 0)
