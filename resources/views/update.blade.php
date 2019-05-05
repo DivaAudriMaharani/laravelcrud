@@ -15,7 +15,7 @@
     @endforeach
     @endif
     <div class="form-group">
-      <label for="exampleInputEmail1" style="margin-right: 7%;">Judul Buku</label>
+      <label for="exampleInputEmail1" style="margin-right: 7%;">Judul Buku </label>
       <input style="margin-bottom: 1%;" value="<?php echo $buku->judul; ?>" type="text" class="form-control" name="judul" placeholder="">
     </div>
     <div class="form-group">
